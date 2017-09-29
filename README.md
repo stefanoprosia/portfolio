@@ -4,8 +4,6 @@
 #### [stefanoprosia.ca](https://stefanoprosia.ca)
 
 
-![](images/me.png)
-
 Stefano Prosia, Illustrator
 
 Ever since I was a kid, I always loved to colour and draw. But at that age you never think about doing that for the rest of your life, because what kid doesn’t like to colour and draw. But as time kept going, I started to get more interested in it.
