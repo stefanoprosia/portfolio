@@ -1,5 +1,5 @@
 html {
-  background-color: #191919;
+  background-color: #000;
   font-family: 'Fjalla One', sans-serif;
   line-height: normal;
 }
@@ -11,6 +11,7 @@ h1 {
 
 img {
   width: 5em;
+  padding-top: 150px;
   padding-bottom: 50px;
   padding-left: 10px;
 }
@@ -26,11 +27,11 @@ a:hover {
   font-weight: bold;
 }
 
-ol, nav {
+ul, nav {
   list-style-type: none;
   font-family: 'Fjalla One', sans-serif;
-  text-align: center;
-  padding: 20px;
+  background-color: #000;
+  border:1px solid #000;
 }
 
 a,
@@ -53,4 +54,16 @@ p {
 
 body {
   min-width: 320px;
+}
+
+h2 {
+  color: #3f4045;
+  padding-left: 10px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.me {
+  padding-bottom: 50px;
+  padding-left: 10px;
 }
