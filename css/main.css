@@ -73,3 +73,9 @@ h2 {
 .display {
   color: #510c12;
 }
+
+.icon {
+  width: 4em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
