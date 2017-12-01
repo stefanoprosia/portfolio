@@ -4,18 +4,7 @@ html {
   line-height: normal;
 }
 
-h1 {
-  color: #3f4045;
-  padding-left: 10px;
-}
-
-img {
-  width: 5em;
-  padding-top: 150px;
-  padding-bottom: 50px;
-  padding-left: 10px;
-}
-
+/*NAVIGATION*/
 a {
   color: #fff;
   text-decoration: none;
@@ -40,42 +29,76 @@ a:link {
   font-weight: bold;
   text-decoration: none;
 }
+/*NAVIGATION END*/
+
+/*BANNER*/
 
 p {
   color: #DCDCDC;
   padding-left: 10px;
-}
-
-.header h1 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-}
-
-body {
-  min-width: 320px;
-}
-
-h2 {
-  color: #3f4045;
-  padding-left: 10px;
-  text-align: center;
-  padding-top: 200px;
-}
-
-.me {
-  padding-right: 20px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 20px;
+  margin: 0;
 }
 
 .display {
   color: #510c12;
 }
 
+h1 {
+  margin-top: 1em;
+  padding-left: 10px;
+  color: #3f4045;
+  padding-left: -13px;
+}
+
+.banner {
+  background-image: url('../images/red.jpg');
+  padding: 5em;
+  background-size: cover;
+}
+
+/*BANNER END*/
+
+/*ABOUT ME*/
+h2 {
+  color: #3f4045;
+  padding-top: 60px;
+}
+
+/*ABOUT ME END*/
+
+
 .icon {
   width: 4em;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 608px) {
+
+  .logo {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  .me {
+    margin-right: 5em;
+  }
+
+  .aboutme {
+    padding: 3em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .logo {
+    width: 10%;
+  }
+
+  .aboutme{
+    padding: 2em;
+  }
 }
