@@ -45,9 +45,10 @@ p {
 
 .portfoliobody {
   color: #DCDCDC;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 4em;
+  padding-right: 4em;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 h1 {
@@ -82,12 +83,25 @@ h2 {
   margin-right: auto;
 }
 
+.work2 {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .reference {
   padding-bottom: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+.spread {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
