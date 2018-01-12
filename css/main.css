@@ -43,6 +43,13 @@ p {
   color: #510c12;
 }
 
+.portfoliobody {
+  color: #DCDCDC;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
 h1 {
   margin-top: 1em;
   padding-left: 10px;
@@ -67,8 +74,20 @@ h2 {
 /*ABOUT ME END*/
 
 /*PORTFOLIO*/
+.work {
+  width: 60%;
+  padding-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-top: 100px;
+}
 
 /*PORTFOLIO END*/
 
@@ -82,7 +101,7 @@ h2 {
 @media only screen and (min-width: 608px) {
 
   .logo {
-    width: 30%;
+    width: 20%;
   }
 
 }
@@ -90,7 +109,9 @@ h2 {
 @media only screen and (min-width: 960px) {
 
   .me {
-    margin-right: 5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    width: 90%;
   }
 
   .aboutme {
@@ -101,7 +122,7 @@ h2 {
 @media only screen and (min-width: 1440px) {
 
   .logo {
-    width: 10%;
+    width: 5%;
   }
 
   .aboutme{
